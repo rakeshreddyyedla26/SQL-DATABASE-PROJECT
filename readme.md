@@ -1,6 +1,6 @@
 # Deep-Sea Hydrothermal Vent & Chemosynthetic Extremophile Biomass Tracker
 
-This repository contains the Python generation script and database schema for the **Abyssal Hydrothermal & Extremophile Specimen Database** (`abyssal_hydrothermal_lab.db`), developed for the SQL & Data Science Database Assessment by **Sai Jayanth Keerthipati** (Student ID: `25023235`).
+This repository contains the Python generation script and database schema for the **Abyssal Hydrothermal & Extremophile Specimen Database** (`abyssal_hydrothermal_lab.db`), developed for the SQL & Data Science Database Assessment by **Rakesh Reddy Yedla** (Student ID: `25049300`).
 
 ## Repository Contents
 
