@@ -2,13 +2,13 @@
 
 This repository contains the Python generation script and database schema for the **Abyssal Hydrothermal & Extremophile Specimen Database** (`abyssal_hydrothermal_lab.db`), developed for the SQL & Data Science Database Assessment by **Sai Jayanth Keerthipati** (Student ID: `25023235`).
 
-## 📂 Repository Contents
+## Repository Contents
 
 * `generate_database.py` (or Jupyter Notebook): The end-to-end Python script utilizing `sqlite3`, `random`, and `numpy` to programmatically build the database, enforce relational constraints, inject realistic missing values/duplicates, and populate 1,200+ records.
 
 * `abyssal_hydrothermal_lab.db`: The compiled SQLite database file outputted by the execution script.
 
-## 🗄️ Schema Architecture & Normalization
+## Schema Architecture & Normalization
 
 The database is fully normalized in Third Normal Form (3NF) across three related tables to eliminate redundancy and update anomalies:
 
@@ -18,7 +18,7 @@ The database is fully normalized in Third Normal Form (3NF) across three related
 
 3. **`extremophile_specimen_logs`** (Fact table featuring a **Compound Primary Key** `(chimney_id, specimen_id)`, foreign key cascading rules, and rigorous `CHECK` constraints).
 
-## 📊 Data Types Representation
+## Data Types Representation
 
 The database satisfies all rubric requirements across its 12 total columns:
 
@@ -30,7 +30,7 @@ The database satisfies all rubric requirements across its 12 total columns:
 
 * **Ratio:** `surface_salinity_ppt`, `buoyant_plume_height_m`, `biomass_dry_weight_mg` (Meaningful absolute true zero)
 
-## 🚀 How to Run the Script
+## How to Run the Script
 
 1. Ensure you have Python installed along with the required libraries (`numpy`).
 
